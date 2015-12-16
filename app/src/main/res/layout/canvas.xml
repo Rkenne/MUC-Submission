@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+
+        <com.example.robbie.gymapp.passTheCanvas
+            android:id="@+id/signature_canvas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#FFFFFF"
+       />
+        <Button
+            android:id="@+id/closeCanvas"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:onClick="clearCanvas"
+            android:text="Clear Canvas"
+            />
+
+    </FrameLayout>
+</LinearLayout>

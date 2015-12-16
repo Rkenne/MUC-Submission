@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/gymLocation"
+    android:title="Gym Location"/>
+    <item
+        android:id="@+id/rssfeed"
+        android:title="My Articles"/>
+    <item
+        android:id="@+id/myExercises"
+        android:title="My Exercises"/>
+    <item
+    android:id="@+id/myCanvas"
+    android:title="Pass The Time!"/>
+    <item
+        android:id="@+id/myHome"
+        android:title="Home Page"/>
+
+    <item
+        android:id="@+id/quit"
+        android:title="Close GymApp"/>
+</menu>
